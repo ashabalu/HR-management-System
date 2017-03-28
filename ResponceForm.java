@@ -334,7 +334,7 @@ public ResponceForm(String s,String msg) {
                 rs.next();
                 name = rs.getString("name");
                 conn.close();
-                jLabel2.setText("Welcome back  "+name);
+                jLabel2.setText("Welcome back  ");
 
         }catch(Exception ex) {
             System.out.print(ex);
